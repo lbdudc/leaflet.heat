@@ -35,6 +35,9 @@
     "prepublish": "uglifyjs node_modules/simpleheat/simpleheat.js src/HeatLayer.js -c -m -o dist/leaflet-heat.js"
   },
   "license": "BSD-2-Clause",
+  "publishConfig": {
+    "access": "public"
+  },
   "jshintConfig": {
     "quotmark": "single",
     "globals": {
